@@ -162,14 +162,115 @@ header .container {
     top: -40px;
 }
 
-.speaker .speakerLabel {
+.speakerLabel {
     position: relative;
     top: -40px;
     font-size: .75rem;
 }
 
+.venue {    
+    height: 250px;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.venueInfo {
+    width: 30%;    
+    float: left;
+}
+
+.venueMap {
+    width: 66%;        
+    float: right;
+    height: 250px;    
+}
+
+.venueMap iframe {
+    height: 100%;
+    width: 100%;    
+}
+
+.venueFeatures {
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.register {
+    background-color: white;
+    padding: 30px;
+}
+
+.registerInfo {
+    width: 60%;
+    display: inline-block; 
+    margin-bottom: 85px;   
+}
+
+.registerForm {
+    width: 28%;
+    display: inline-block;
+    float: right;    
+}
+
+.register h2 {
+    color: #3b6978;
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+
+.register h3 {
+    color: #3b6978;
+    padding-bottom: 5px;
+    font-weight: 400;
+}
+
+.register h5 {
+    color: #3b6978;
+}
+
+.register ul {
+    list-style-type: square;
+    list-style-position: inside
+}
+
+.register input, .register select, .register textarea {
+    display: block;
+    padding: 5px;
+    margin-bottom: 20px;    
+    border-radius: 5px;
+    border-style:solid;    
+    border: 1px solid grey;
+}
+
+.register input, .register textarea {
+    width: 250px;
+}
+
+.register textarea {
+    height: 75px;
+}
+
+.register label {
+    color: #3b6978;
+    font-weight: 600;
+}
+
+.registerForm form {
+    padding: 30px;
+}
+
+.submit {
+    background-color: #3b6978;
+    color: white;
+    
+}
+
 .footer {
     padding: 10px;
+}
+
+fieldset {
+    border: none;
 }
 
 footer .copy {
