@@ -66,6 +66,15 @@ header .container {
     padding: 10px;
 }
 
+.heroRegister {
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    color: rgb(80, 80, 80);
+}
+
+.heroRegister h2 {
+    color: rgb(80, 80, 80);
+}
+
 .hero .container {
     width: 40vw;
 }
